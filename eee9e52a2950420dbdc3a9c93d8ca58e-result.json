@@ -1,0 +1,85 @@
+{
+  "uuid": "0b3a7c5f20af4ddba42f202a7a603e3a",
+  "historyId": "Create a new product",
+  "fullName": "Create a new product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "0054-AN-04"
+    },
+    {
+      "name": "feature",
+      "value": "Create Product"
+    }
+  ],
+  "links": [],
+  "name": "Create a new product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a product with the following details:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "2409bdea46dd40f3899d41590e9a2fad-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686326422514,
+      "stop": 1686326423047
+    },
+    {
+      "name": "When  I send a POST request to \"/api/products\" with the product details",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686326423048,
+      "stop": 1686326423497
+    },
+    {
+      "name": "Then  the response status code should be for the create 403",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686326423497,
+      "stop": 1686326423515
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686326422182,
+  "stop": 1686326423518
+}
