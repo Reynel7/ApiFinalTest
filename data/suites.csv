@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 09 16:00:23 GMT 2023","Fri Jun 09 16:00:23 GMT 2023","246","","","","","","Get by all products",""
+"passed","Fri Jun 09 16:00:22 GMT 2023","Fri Jun 09 16:00:23 GMT 2023","1336","","","","","","Create a new product",""
+"passed","Fri Jun 09 16:00:23 GMT 2023","Fri Jun 09 16:00:24 GMT 2023","356","","","","","","Get by id",""
+"passed","Fri Jun 09 16:00:24 GMT 2023","Fri Jun 09 16:00:24 GMT 2023","246","","","","","","Update a product that exist",""
