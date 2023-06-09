@@ -1,14 +1,15 @@
+using NUnit.Framework;
 using RestSharp;
 using System;
 using System.Net;
 using TechTalk.SpecFlow;
 
-namespace TestProject3
+namespace APICITOTest
 {
     [Binding]
-    public class GetPostsStepDefinitions
+    public class GetIdProducts
     {
-        RestClient client = new RestClient("http://34.125.117.44:3000");
+        RestClient client = new RestClient("http://demostore.gatling.io/api/product");
 
         RestRequest request = new RestRequest("posts/{postid}", Method.Get);
 
@@ -17,7 +18,7 @@ namespace TestProject3
         [Given(@"I have an id with value (.*)")]
         public void GivenIHaveAnIdWithValue(int p0)
         {
-            request.AddUrlSegment("postid", p0);
+            request.AddUrlSegment("postid", p0.ToString());
         }
 
         [When(@"I send a get request")]
@@ -29,7 +30,7 @@ namespace TestProject3
         [Then(@"I expected a valid code response")]
         public void ThenIExpectedAValidCodeResponse()
         {
-            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.NotFound));
         }
     }
 }

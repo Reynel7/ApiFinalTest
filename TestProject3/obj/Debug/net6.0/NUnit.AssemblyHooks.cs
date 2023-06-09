@@ -9,13 +9,13 @@ using global::System.Runtime.CompilerServices;
 
 [GeneratedCode("SpecFlow", "3.9.74")]
 [SetUpFixture]
-public class TestProject3_NUnitAssemblyHooks
+public class APICITOTest_NUnitAssemblyHooks
 {
     [OneTimeSetUp]
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyInitialize()
     {
-        var currentAssembly = typeof(TestProject3_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(APICITOTest_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunStart(currentAssembly);
     }
@@ -24,7 +24,7 @@ public class TestProject3_NUnitAssemblyHooks
     [MethodImpl(MethodImplOptions.NoInlining)]
     public void AssemblyCleanup()
     {
-        var currentAssembly = typeof(TestProject3_NUnitAssemblyHooks).Assembly;
+        var currentAssembly = typeof(APICITOTest_NUnitAssemblyHooks).Assembly;
 
         TestRunnerManager.OnTestRunEnd(currentAssembly);
     }

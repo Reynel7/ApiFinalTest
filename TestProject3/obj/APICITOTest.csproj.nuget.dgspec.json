@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Reynel\\ApiFinalTest\\TestProject3\\TestProject3.csproj": {}
+    "D:\\Reynel\\ApiFinalTest\\TestProject3\\APICITOTest.csproj": {}
   },
   "projects": {
-    "D:\\Reynel\\ApiFinalTest\\TestProject3\\TestProject3.csproj": {
+    "D:\\Reynel\\ApiFinalTest\\TestProject3\\APICITOTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Reynel\\ApiFinalTest\\TestProject3\\TestProject3.csproj",
-        "projectName": "TestProject3",
-        "projectPath": "D:\\Reynel\\ApiFinalTest\\TestProject3\\TestProject3.csproj",
+        "projectUniqueName": "D:\\Reynel\\ApiFinalTest\\TestProject3\\APICITOTest.csproj",
+        "projectName": "APICITOTest",
+        "projectPath": "D:\\Reynel\\ApiFinalTest\\TestProject3\\APICITOTest.csproj",
         "packagesPath": "C:\\Users\\reynel.sanchez\\.nuget\\packages\\",
         "outputPath": "D:\\Reynel\\ApiFinalTest\\TestProject3\\obj\\",
         "projectStyle": "PackageReference",
